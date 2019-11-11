@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<html>
+ <head>
+ <title>III's blog</title>
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+ </head>
+ <body>
+ <div class="page-header">
+ <h1><a href="/blog">III's Blog</a></h1>
+ </div>
+ {% block content %}{% endblock %}
+ </body>
+</html>
